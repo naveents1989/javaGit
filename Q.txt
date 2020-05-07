@@ -1,0 +1,102 @@
+Core JAVA:
+---------
+- Dynamic method dispatch or Runtime Polymorphism
+	- Late bunding or Dynamic Binding ??
+- Abstract classes vs Interfaces
+- Variables in Interfaces are constant ?
+- Memory allocation for an Object.
+- Reflection, Aggregation
+- Enum more detail.
+- Type Inference.
+- Memory Management.
+- Advantages of Exceptions or Exception handling
+- Thread Call stack
+- Ways of Threads creation more details
+
+API Management Tool:
+-------------------
+- UDDI
+- WSDL
+- API Gateway Requirement
+- Proxy vs Orchestration type
+- Restful API standards
+- Limit a client to access API
+- Unix commands
+
+- Live and Sandbox in API management tool
+- API ?
+- AKANA, Is it integration of several AKANA products ?
+- tModel ?
+- API Gateway
+	- Adaptor ?
+	- Response Cache ?
+	- Router
+
+blog.akana.com
+	
+Spring:
+-------
+- What is Bean or Spring Bean ?
+- Dependency Lookup and JNDI ?
+- Spring Injecting Inner Beans
+- Autowiring: Adv and Disadv ?
+- Devtools for Restart
+
+Constructor Based inJection:
+<bean id="emp1" class="Employee">
+<Constructor-arg value="1" type="int"/>
+<constructor-arg value="Naveen"/>
+<constructor-arg>
+	<ref bean="address1"/>
+</constructor-arg>
+</bean>
+
+
+Setter Based Injection:
+
+<bean id="emp1" class="Employee">
+<property name="id" value="1"/>
+<property name="name" value="Naveen"/>
+<property name="address" ref="address1"/>
+</bean>
+
+----------------------------------------
+
+oops
+generics
+Concurrency APIs
+Collections
+
+Junit
+Mockito
+
+	(Desktop Development)
+JavaFX
+Swing
+
+(Android App Development)
+-  Koltin
+- Android APIs
+
+Server Side development
+- Servlets and JSPs
+- Spring framework
+- Spring MVC
+- Hibernate (ORM)
+- Spring Boot
+
+Java EE
+- JAX RS
+- JPA
+- JAX-WS
+
+- Design Patterns
+- Git
+- Build Systems
+	- Maven
+	- Gradle
+	- CICD - Conitnious INtegration and Continous coding
+- Microservices
+- Data Structures and algorithms
+
+- Example Project	
